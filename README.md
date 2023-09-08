@@ -145,7 +145,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
 
-
+# Task 3
 # Credit Card Fraud Detection
 
 Detecting fraudulent credit card transactions using machine learning.
@@ -225,4 +225,4 @@ Contributions are what make the open-source community an amazing place to learn,
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
