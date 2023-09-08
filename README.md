@@ -83,6 +83,7 @@ The **Spam SMS Detector** is a machine learning project designed to automaticall
 
 -   [Getting Started](https://chat.openai.com/c/274f2198-6926-43b4-bf68-d62325ee6e02#getting-started)
     -   [Prerequisites](https://chat.openai.com/c/274f2198-6926-43b4-bf68-d62325ee6e02#prerequisites)
+    -   [Data](#data)
     -   [Usage](https://chat.openai.com/c/274f2198-6926-43b4-bf68-d62325ee6e02#usage)
 -   [Model Training](https://chat.openai.com/c/274f2198-6926-43b4-bf68-d62325ee6e02#model-training)
 - [Files](https://chat.openai.com/c/274f2198-6926-43b4-bf68-d62325ee6e02#files)
@@ -100,7 +101,8 @@ Before you begin, ensure you have:
 -   Python 3.x and required libraries installed.
 -  You can install the required libraries by using:
 	`pip install pandas numpy matplotlib seaborn sklearn nltk pickle gradio`
-
+### Data
+The dataset used for this project can be found at [SMS Spam Collection Dataset | Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download). The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
 ### Usage
 
 1.  Clone this repository:
@@ -142,3 +144,85 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## License
 
 This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
+
+
+# Credit Card Fraud Detection
+
+Detecting fraudulent credit card transactions using machine learning.
+
+## Table of Contents
+- [About the Project](#about-the-project)
+ - [Built With](#built-with)
+- [Getting Started](#getting-started)
+ - [Prerequisites](#prerequisites)
+ - [Installation](#installation)
+- [Usage](#usage)
+- [Data](#data)
+- [Models](#models)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## About The Project
+
+Credit card fraud is a significant concern for both financial institutions and cardholders. This project aims to develop and deploy a machine learning model for the detection of fraudulent credit card transactions. The model can help identify suspicious transactions, providing an additional layer of security.
+
+### Built With
+
+- Python
+- Scikit-learn
+- Jupyter Notebook
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+### Prerequisites
+
+- Python (>=3.6)
+- Jupyter Notebook
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Talha-Tahir2001/CODSOFT.git` 
+
+2.  `Install the Python packages by uncommenting the First Jupyter cell `
+    
+
+## Usage
+
+-   Training and evaluating machine learning models for credit card fraud detection.
+
+## Data
+
+The dataset used for this project can be found at ([Credit Card Transactions Fraud Detection Dataset | Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection)). It contains a simulated credit card transaction dataset containing legitimate and fraud transactions from the duration 1st Jan 2019 - 31st Dec 2020. It covers credit cards of 1000 customers doing transactions with a pool of 800 merchants.
+
+## Models
+
+We have trained and evaluated several machine learning models, including:
+
+-   Logistic Regression
+-   Random Forest
+-   Decision Tree
+-   AdaBoost
+
+## Results
+
+Sample results and performance metrics for the models can be found at the end of the jupyter file along with the Classification Reports and Confusion Matrices.
+
+## Contributing
+
+Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
